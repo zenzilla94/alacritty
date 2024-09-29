@@ -52,7 +52,7 @@ live_config_reload = true
 # Example:
 
 [shell]
-program = "/usr/bin/fish"
+program = "/home/mike/.nix-profile/bin/fish"
 args = ["-l"]
 
 # [shell]
@@ -232,8 +232,8 @@ multiplier = 3
 # Default: true
 
 [font]
-normal = { family = "Hack Nerd Font", style = "Regular" }
-size = 15
+normal = { family = "Fira Code", style = "Regular" }
+size = 13
 builtin_box_drawing = true 
 
 # COLORS
